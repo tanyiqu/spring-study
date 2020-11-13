@@ -12,9 +12,7 @@
         <module>spring-01-ioc</module>
     </modules>
 
-
     <dependencies>
-
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
