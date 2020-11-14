@@ -7,10 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring-01-ioc" />
+        <module name="spring-02-HelloSpring" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="spring-01-ioc" target="1.5" />
+      <module name="spring-02-HelloSpring" target="1.5" />
       <module name="spring-study" target="1.5" />
     </bytecodeTargetLevel>
   </component>
