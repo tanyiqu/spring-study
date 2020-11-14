@@ -1,18 +1,19 @@
-import com.tanyiqu.dao.UserDaoImplMySQL;
-import com.tanyiqu.dao.UserDaoImplOracle;
 import com.tanyiqu.service.UserService;
-import com.tanyiqu.service.UserServiceImpl;
 import org.junit.Test;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class MyTest {
 
     @Test
     public void getUser(){
-        UserService userService = new UserServiceImpl();
+        ApplicationContext context = new ClassPathXmlApplicationContext("beans.xml");
 
-        ((UserServiceImpl) userService).setUserDao(new UserDaoImplMySQL());
+        UserService service = (UserService) context.getBean("userService");
 
-        userService.getUser();
+        service.getUser();
+
+
     }
 
 }
