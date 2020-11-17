@@ -64,4 +64,6 @@
 
     </bean>
 
+    <import resource="userBeans.xml"/>
+
 </beans>
