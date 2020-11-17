@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/spring-01-ioc/spring-01-ioc.iml" filepath="$PROJECT_DIR$/spring-01-ioc/spring-01-ioc.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-02-HelloSpring/spring-02-HelloSpring.iml" filepath="$PROJECT_DIR$/spring-02-HelloSpring/spring-02-HelloSpring.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-03-配置/spring-03-配置.iml" filepath="$PROJECT_DIR$/spring-03-配置/spring-03-配置.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-04-依赖注入/spring-04-依赖注入.iml" filepath="$PROJECT_DIR$/spring-04-依赖注入/spring-04-依赖注入.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-study.iml" filepath="$PROJECT_DIR$/spring-study.iml" />
     </modules>
   </component>

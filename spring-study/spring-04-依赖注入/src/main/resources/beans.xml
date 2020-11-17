@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+    <bean id="addr" class="com.tanyiqu.pojo.Address">
+        <property name="address" value="平顶山"/>
+    </bean>
+
+
+    <bean id="student" class="com.tanyiqu.pojo.Student">
+        <!-- 普通值注入 -->
+        <property name="name" value="张三"/>
+
+        <!-- ref注入 -->
+        <property name="address" ref="addr"/>
+
+        <!-- 数组 -->
+        <property name="books">
+            <array>
+                <value>C++</value>
+                <value>Java</value>
+            </array>
+        </property>
+
+        <!-- List -->
+        <property name="hobbies">
+            <list>
+                <value>唱</value>
+                <value>跳</value>
+                <value>Rap</value>
+            </list>
+        </property>
+
+        <!-- Map -->
+        <property name="card">
+            <map>
+                <entry key="身份证" value="4xxxxxxxxxxxxxxxxx"/>
+                <entry key="银行卡" value="3xxxxxxxxxxxxxxxxxx"/>
+            </map>
+        </property>
+
+        <!-- Set -->
+        <property name="games">
+            <set>
+                <value>LOL</value>
+                <value>DNF</value>
+            </set>
+        </property>
+
+        <!--  null -->
+        <property name="wife">
+            <null/>
+        </property>
+
+        <!-- properties -->
+        <property name="info">
+            <props>
+                <prop key="username">1111111</prop>
+                <prop key="password">2222222</prop>
+            </props>
+        </property>
+
+    </bean>
+
+</beans>

@@ -12,6 +12,7 @@
         <module>spring-01-ioc</module>
         <module>spring-02-HelloSpring</module>
         <module>spring-03-配置</module>
+        <module>spring-04-依赖注入</module>
     </modules>
 
     <dependencies>

@@ -9,12 +9,14 @@
         <module name="spring-01-ioc" />
         <module name="spring-03-配置" />
         <module name="spring-02-HelloSpring" />
+        <module name="spring-04-依赖注入" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="spring-01-ioc" target="1.5" />
       <module name="spring-02-HelloSpring" target="1.5" />
       <module name="spring-03-配置" target="1.5" />
+      <module name="spring-04-依赖注入" target="1.5" />
       <module name="spring-study" target="1.5" />
     </bytecodeTargetLevel>
   </component>
