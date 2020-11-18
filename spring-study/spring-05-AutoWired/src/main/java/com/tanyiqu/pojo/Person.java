@@ -1,6 +1,7 @@
 package com.tanyiqu.pojo;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 
 import javax.annotation.Resource;
 
@@ -8,6 +9,7 @@ public class Person {
     String name;
 
     @Autowired
+    @Qualifier(value = "cat")
     Cat cat;
 
     @Resource(name = "dog")
