@@ -7,9 +7,10 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring-01-ioc" />
-        <module name="spring-03-配置" />
         <module name="spring-05-AutoWired" />
         <module name="spring-02-HelloSpring" />
+        <module name="spring-06-注解开发" />
+        <module name="spring-03-配置" />
         <module name="spring-04-依赖注入" />
       </profile>
     </annotationProcessing>
@@ -19,6 +20,7 @@
       <module name="spring-03-配置" target="1.5" />
       <module name="spring-04-依赖注入" target="1.5" />
       <module name="spring-05-AutoWired" target="1.5" />
+      <module name="spring-06-注解开发" target="1.5" />
       <module name="spring-study" target="1.5" />
     </bytecodeTargetLevel>
   </component>
