@@ -4,14 +4,15 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 
-    <bean id="cat" class="com.tanyiqu.pojo.Cat"/>
+<!--    <bean id="cat" class="com.tanyiqu.pojo.Cat"/>-->
 
-    <bean id="dog" class="com.tanyiqu.pojo.Dog"/>
+<!--    <bean id="dog" class="com.tanyiqu.pojo.Dog"/>-->
 
-    <bean id="person" class="com.tanyiqu.pojo.Person">
-        <property name="cat" ref="cat"/>
-        <property name="dog" ref="dog"/>
-        <property name="name" value="张三"/>
-    </bean>
+<!--    <bean id="person" class="com.tanyiqu.pojo.Person" autowire="byType">-->
+<!--        &lt;!&ndash;        <property name="cat" ref="cat"/>&ndash;&gt;-->
+<!--        &lt;!&ndash;        <property name="dog" ref="dog"/>&ndash;&gt;-->
+<!--        <property name="name" value="张三"/>-->
+
+<!--    </bean>-->
 
 </beans>

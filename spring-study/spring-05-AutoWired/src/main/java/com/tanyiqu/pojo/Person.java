@@ -1,8 +1,16 @@
 package com.tanyiqu.pojo;
 
+import org.springframework.beans.factory.annotation.Autowired;
+
+import javax.annotation.Resource;
+
 public class Person {
     String name;
+
+    @Autowired
     Cat cat;
+
+    @Resource(name = "dog")
     Dog dog;
 
     @Override
