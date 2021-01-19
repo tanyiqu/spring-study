@@ -10,6 +10,11 @@
     <version>1.0</version>
     <modules>
         <module>ioc-01-simple-ioc</module>
+        <module>ioc-02-HelloSpring</module>
+        <module>ioc-03-config</module>
+        <module>ioc-04-依赖注入</module>
+        <module>ioc-05-自动装配</module>
+        <module>ioc-06-注解开发</module>
     </modules>
 
     <dependencies>

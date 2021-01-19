@@ -32,14 +32,14 @@
 ### Maven
 
 ```xml
-<!-- https://mvnrepository.com/artifact/org.springframework/spring-webmvc -->
 <dependency>
     <groupId>org.springframework</groupId>
     <artifactId>spring-webmvc</artifactId>
     <version>5.2.9.RELEASE</version>
 </dependency>
 
-<!-- https://mvnrepository.com/artifact/org.springframework/spring-jdbc -->
+
+
 <dependency>
     <groupId>org.springframework</groupId>
     <artifactId>spring-jdbc</artifactId>
