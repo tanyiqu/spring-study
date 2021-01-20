@@ -37,14 +37,6 @@
     <artifactId>spring-webmvc</artifactId>
     <version>5.2.9.RELEASE</version>
 </dependency>
-
-
-
-<dependency>
-    <groupId>org.springframework</groupId>
-    <artifactId>spring-jdbc</artifactId>
-    <version>5.2.1.RELEASE</version>
-</dependency>
 ```
 
 
