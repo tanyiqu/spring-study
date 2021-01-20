@@ -10,6 +10,7 @@
     <version>1.0</version>
     <modules>
         <module>aop-01-start</module>
+        <module>aop-02-diy</module>
     </modules>
 
     <dependencies>
