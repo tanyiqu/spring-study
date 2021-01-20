@@ -11,6 +11,7 @@
     <modules>
         <module>aop-01-start</module>
         <module>aop-02-diy</module>
+        <module>aop-03-annotation</module>
     </modules>
 
     <dependencies>

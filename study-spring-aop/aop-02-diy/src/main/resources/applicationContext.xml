@@ -9,7 +9,7 @@
     <bean id="userService" class="love.tanyiqu.service.UserServiceImpl"/>
 
     <!-- 自定义的切入类 -->
-    <bean id="myPointcut" class="love.tanyiqu.pointcut.MyPointcut"/>
+    <bean id="myPointcut" class="love.tanyiqu.pointcut.AnnotationPointcut"/>
 
     <!-- 配置aop -->
     <aop:config>
